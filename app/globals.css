@@ -468,27 +468,28 @@ button {
 
 .lightbox-stage {
   position: relative;
-  max-width: min(1400px, 96vw);
-  max-height: 92vh;
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
   align-items: center;
-  width: 100%;
+  gap: 16px;
+  padding: 0 56px;
 }
 
 .lightbox-image-wrap {
-  flex: 1 1 auto;
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 0;
-  width: 100%;
 }
 
 .lightbox-image {
   max-width: 100%;
-  max-height: 78vh;
+  max-height: 100%;
   width: auto !important;
   height: auto !important;
   object-fit: contain;
@@ -497,14 +498,16 @@ button {
 }
 
 .lightbox-meta {
+  flex: 0 0 auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 18px 28px;
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 13px;
   align-items: center;
   justify-content: center;
+  gap: 8px 16px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 13px;
+  padding-bottom: 4px;
 }
 
 .lightbox-counter {
@@ -514,23 +517,26 @@ button {
 }
 
 .lightbox-exif {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, max-content));
-  gap: 4px 22px;
+  list-style: none;
   margin: 0;
-}
-
-.lightbox-exif dt {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 11px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.lightbox-exif dd {
-  margin: 0 0 6px;
-  color: rgba(255, 255, 255, 0.95);
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 14px;
+  color: rgba(255, 255, 255, 0.92);
   font-variant-numeric: tabular-nums;
+}
+
+.lightbox-exif li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.lightbox-exif li + li::before {
+  content: "·";
+  margin-right: 14px;
+  color: rgba(255, 255, 255, 0.35);
 }
 
 .lightbox-empty {
@@ -547,8 +553,7 @@ button {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  font-size: 22px;
-  line-height: 1;
+  padding: 0;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -557,23 +562,27 @@ button {
   transition: background var(--transition), transform var(--transition);
 }
 
+.lightbox-btn > svg {
+  display: block;
+}
+
 .lightbox-btn:hover {
   background: rgba(255, 255, 255, 0.18);
 }
 
 .lightbox-close {
-  top: 24px;
-  right: 24px;
+  top: 18px;
+  right: 18px;
 }
 
 .lightbox-prev {
-  left: 24px;
+  left: 18px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .lightbox-next {
-  right: 24px;
+  right: 18px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -584,6 +593,16 @@ button {
 
 .lightbox-next:hover {
   transform: translateY(-50%) translateX(2px);
+}
+
+@media (max-width: 640px) {
+  .lightbox-stage {
+    padding: 0 8px;
+  }
+  .lightbox-prev,
+  .lightbox-next {
+    display: none;
+  }
 }
 
 /* ───────────────────────── Footer ───────────────────────── */
