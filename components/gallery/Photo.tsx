@@ -4,10 +4,12 @@ import { PhotoClient } from "./PhotoClient";
 export function Photo({
   src,
   alt = "",
+  caption,
   priority = false,
 }: {
   src: string;
   alt?: string;
+  caption?: string;
   priority?: boolean;
 }) {
   const meta = getImageMeta(src);
@@ -17,7 +19,8 @@ export function Photo({
   return (
     <PhotoClient
       src={src}
-      alt={alt}
+      alt={alt || caption || ""}
+      caption={caption}
       width={meta.width}
       height={meta.height}
       blurDataURL={meta.blurDataURL ?? undefined}

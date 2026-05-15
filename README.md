@@ -125,6 +125,24 @@ Each gallery page is plain MDX. To add a photo to `Places → 2023+`:
 
 > **Order = display order.** Photos render in the order they appear in MDX.
 
+### With a caption
+
+`<Photo>` accepts an optional `caption` prop. It renders as a small italic
+overlay at the bottom of the image (with a subtle dark gradient for legibility).
+The caption is **not** shown in the expanded lightbox view.
+
+```mdx
+<Photo
+  src="/images/places/2026-05-porto.jpg"
+  caption="Porto, Portugal — May 2026"
+/>
+```
+
+Convention used in this repo:
+- Places → `"City, Country — Month Year"` (em-dash, not hyphen).
+- Plants → just the plant name (e.g. `"California poppies"`).
+- Art → no captions.
+
 ---
 
 ## Adding a new section (e.g. a new year)

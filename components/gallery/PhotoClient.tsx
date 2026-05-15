@@ -7,6 +7,7 @@ import type { Exif } from "@/lib/image-data";
 type Props = {
   src: string;
   alt?: string;
+  caption?: string;
   width: number;
   height: number;
   blurDataURL?: string;
@@ -17,6 +18,7 @@ type Props = {
 export function PhotoClient({
   src,
   alt = "",
+  caption,
   width,
   height,
   blurDataURL,
@@ -25,6 +27,7 @@ export function PhotoClient({
 }: Props) {
   const { open } = useGalleryCtx();
 
+  // Caption is intentionally NOT in this payload — the lightbox stays clean.
   const meta = JSON.stringify({
     width,
     height,
@@ -39,7 +42,7 @@ export function PhotoClient({
       data-photo-src={src}
       data-photo-meta={meta}
       onClick={() => open(src)}
-      aria-label="Open image"
+      aria-label={caption || "Open image"}
     >
       <Image
         src={src}
@@ -51,6 +54,11 @@ export function PhotoClient({
         sizes="(max-width: 800px) 100vw, 720px"
         priority={priority}
       />
+      {caption && (
+        <span className="photo-caption">
+          <span className="photo-caption-text">{caption}</span>
+        </span>
+      )}
     </button>
   );
 }
