@@ -166,6 +166,7 @@ button {
   border-radius: 999px;
   width: 34px;
   height: 34px;
+  padding: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -178,6 +179,10 @@ button {
 .theme-toggle:hover {
   color: var(--accent);
   border-color: var(--accent);
+}
+
+.theme-toggle > svg {
+  display: block;
 }
 
 /* ───────────────────────── Main ───────────────────────── */
