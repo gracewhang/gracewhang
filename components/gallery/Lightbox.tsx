@@ -129,56 +129,20 @@ export function Lightbox({
         </div>
 
         <div className="lightbox-meta">
-          <div className="lightbox-counter">
+          <span className="lightbox-counter">
             {index + 1} / {total}
-          </div>
+          </span>
           {exif ? (
-            <dl className="lightbox-exif">
-              {exif.camera && (
-                <>
-                  <dt>Camera</dt>
-                  <dd>{exif.camera}</dd>
-                </>
-              )}
-              {exif.lens && (
-                <>
-                  <dt>Lens</dt>
-                  <dd>{exif.lens}</dd>
-                </>
-              )}
-              {exif.focalLength != null && (
-                <>
-                  <dt>Focal length</dt>
-                  <dd>{exif.focalLength} mm</dd>
-                </>
-              )}
-              {exif.fNumber != null && (
-                <>
-                  <dt>Aperture</dt>
-                  <dd>f/{exif.fNumber}</dd>
-                </>
-              )}
-              {exif.exposureTime && (
-                <>
-                  <dt>Shutter</dt>
-                  <dd>{exif.exposureTime}</dd>
-                </>
-              )}
-              {exif.iso != null && (
-                <>
-                  <dt>ISO</dt>
-                  <dd>{exif.iso}</dd>
-                </>
-              )}
-              {date && (
-                <>
-                  <dt>Taken</dt>
-                  <dd>{date}</dd>
-                </>
-              )}
-            </dl>
+            <ul className="lightbox-exif">
+              {exif.camera && <li>{exif.camera}</li>}
+              {exif.focalLength != null && <li>{exif.focalLength}mm</li>}
+              {exif.fNumber != null && <li>f/{exif.fNumber}</li>}
+              {exif.exposureTime && <li>{exif.exposureTime}</li>}
+              {exif.iso != null && <li>ISO {exif.iso}</li>}
+              {date && <li>{date}</li>}
+            </ul>
           ) : (
-            <p className="lightbox-empty">No EXIF data</p>
+            <span className="lightbox-empty">No EXIF data</span>
           )}
         </div>
       </div>
