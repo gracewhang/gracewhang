@@ -9,7 +9,8 @@
       "Bash(node -e ' *)",
       "Bash(node *)",
       "Bash(npx next *)",
-      "Bash(pkill -f \"next start\")"
+      "Bash(pkill -f \"next start\")",
+      "Bash(pkill -f \"next\")"
     ]
   }
 }
