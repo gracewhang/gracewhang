@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(file *.jpg *.JPG *.png)",
+      "Bash(awk -F: '{print $1}')",
+      "Bash(node scripts/build-image-data.mjs)",
+      "Bash(node -e \"const d=require\\('/Users/ecklf/Developer/gracy-site/content/image-data.json'\\); console.log\\('keys:', Object.keys\\(d\\).length, 'unique:', new Set\\(Object.keys\\(d\\)\\).size\\)\")",
+      "Bash(node -e \"const d=require\\('/Users/ecklf/Developer/gracy-site/content/image-data.json'\\); for\\(const k of Object.keys\\(d\\)\\) console.log\\(k.replace\\('/images/',''\\)\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node *)",
+      "Bash(npx next *)",
+      "Bash(pkill -f \"next start\")"
+    ]
+  }
+}
