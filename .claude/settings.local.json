@@ -29,7 +29,8 @@
       "Bash(grep -oE \"max-w-[^\\\\s,{}]*\" /tmp/css.css)",
       "Bash(grep -oE \"\\\\.z-[^\\\\s,{}]*\" /tmp/css.css)",
       "Bash(grep -oE \"max-\\\\\\\\\\\\\\\\\\\\[640px\\\\\\\\\\\\\\\\\\\\]:[^\\\\s,{}]*\" /tmp/css.css)",
-      "Bash(curl -s http://localhost:3002/)"
+      "Bash(curl -s http://localhost:3002/)",
+      "Bash(curl -s http://localhost:3003/places)"
     ]
   }
 }
