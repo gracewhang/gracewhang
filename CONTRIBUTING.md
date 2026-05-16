@@ -48,7 +48,7 @@ app/
   layout.tsx              Root layout — header, theme toggle, footer.
   page.tsx                Home page — hero + nav links.
   icon.svg                Tomato favicon.
-  globals.css             All site styles.
+  globals.css             Tailwind v4 entry + theme variables + base layer.
   (gallery)/              Route group: every page inside shares the gallery shell.
     layout.tsx            Wraps each gallery page with <GalleryShell>.
     art/page.mdx          ←— You edit these.
@@ -268,7 +268,7 @@ it's logged and skipped; the corresponding `<Photo>` will render nothing.
 | Name, tagline, nav, avatar URL  | `content/site.config.ts`                           |
 | Hero image on the home page     | `HERO_SRC` in `app/page.tsx`                       |
 | Hero caption                    | The `<figcaption>` block in `app/page.tsx`         |
-| Theme palette                   | CSS vars at the top of `app/globals.css`           |
+| Theme palette                   | CSS vars at the top of `app/globals.css` (mapped to Tailwind tokens via `@theme inline`) |
 | Favicon                         | `app/icon.svg` (pixel-art SVG)                     |
 | What EXIF fields appear         | `components/gallery/Lightbox.tsx`                  |
 

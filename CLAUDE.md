@@ -18,7 +18,12 @@ owner edits by hand. See `README.md` for the user-facing maintenance guide.
 - Build-time image pipeline: `sharp` (dimensions + blur placeholders) +
   `exifr` (EXIF extraction)
 - Package manager: **pnpm** (per `packageManager` field). Don't use npm/yarn.
-- No CSS framework — plain CSS with CSS variables in `app/globals.css`
+- Styling: **Tailwind CSS v4** via `@tailwindcss/postcss`. Theme tokens
+  (`--bg`, `--fg`, `--accent`, etc.) are defined as CSS variables in
+  `app/globals.css` and mapped into Tailwind via `@theme inline`, so utilities
+  like `bg-bg`, `text-fg`, `text-accent`, `border-border` resolve through
+  runtime-switchable variables. Dark mode is wired up via a `@custom-variant
+  dark` block that matches `[data-theme="dark"]`.
 
 ## Commands
 
@@ -146,13 +151,21 @@ CSS selectors choke on a leading digit, so year IDs are prefixed with `y`:
 
 ### Styles
 
-- Everything in `app/globals.css`. No CSS modules, no inline `<style>` blocks,
-  no Tailwind.
-- Theme palette lives in `:root`/`[data-theme="dark"]` blocks — extend there
-  rather than hard-coding colors.
+- Tailwind v4 utilities on the components — no CSS modules. `app/globals.css`
+  is reserved for: the `@import "tailwindcss"` line, the theme-variable blocks
+  (`:root`/`[data-theme="dark"]`), the `@theme inline` token map, a small
+  `@layer base` for body defaults and MDX-generated `<h1>`/`<h2>` styles, and
+  the `lightbox-in` keyframes.
+- Theme palette lives in `:root`/`[data-theme="dark"]` — extend there rather
+  than hard-coding colors. Then reference via `bg-fg`, `text-accent`,
+  `border-border`, etc. — utilities resolve through the variables, so dark
+  mode "just works."
+- Use Tailwind tokens by default (`mx-auto`, `gap-4`, `text-sm`). Reach for
+  arbitrary values (`text-[14.5px]`, `max-w-[880px]`, `right-[max(16px,calc(...))]`)
+  when matching the previous design's exact pixel/calc values.
 - SVG icons inside circular buttons need `display: block` to center cleanly
-  (font baselines shift text glyphs off-center; that's why `×` / `‹` / `›`
-  were replaced with SVGs).
+  (`[&>svg]:block` on the button). Font baselines shift text glyphs off-center;
+  that's why `×` / `‹` / `›` were replaced with SVGs.
 
 ## Gotchas
 
@@ -199,9 +212,9 @@ CSS selectors choke on a leading digit, so year IDs are prefixed with `y`:
 | ------------------------------- | --------------------------------------------- |
 | Site name, tagline, nav, avatar | `content/site.config.ts`                      |
 | Hero image                      | `HERO_SRC` in `app/page.tsx`                  |
-| Theme colors                    | `:root` / `[data-theme="dark"]` in globals.css|
+| Theme colors                    | `:root` / `[data-theme="dark"]` in globals.css (mapped via `@theme inline`) |
 | Favicon                         | `app/icon.svg`                                |
 | Which EXIF fields show          | `components/gallery/Lightbox.tsx`             |
 | GPS toggle                      | `gps: false` in `scripts/build-image-data.mjs`|
-| Caption styling                 | `.photo-caption*` in globals.css              |
+| Caption styling                 | Inline Tailwind classes in `PhotoClient.tsx`  |
 | Photo bundle protocol           | `meta` JSON in `PhotoClient.tsx` + readers in `GalleryShell.tsx` / `Lightbox.tsx` |

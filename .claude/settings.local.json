@@ -19,7 +19,17 @@
       "Bash(curl -s http://localhost:3001/plants)",
       "Bash(curl -s http://localhost:3001/places)",
       "Bash(pkill -f \"next dev\")",
-      "Bash(pkill -f \"node scripts/build-image-data\")"
+      "Bash(pkill -f \"node scripts/build-image-data\")",
+      "Bash(pnpm add *)",
+      "Bash(pnpm build *)",
+      "Bash(pkill -f \"next dev\\\\|next-server\")",
+      "Bash(curl -s http://localhost:3001/_next/static/css/)",
+      "Bash(curl -s \"http://localhost:3001/_next/static/css/app/layout.css\")",
+      "Bash(curl -s http://localhost:3002/places)",
+      "Bash(grep -oE \"max-w-[^\\\\s,{}]*\" /tmp/css.css)",
+      "Bash(grep -oE \"\\\\.z-[^\\\\s,{}]*\" /tmp/css.css)",
+      "Bash(grep -oE \"max-\\\\\\\\\\\\\\\\\\\\[640px\\\\\\\\\\\\\\\\\\\\]:[^\\\\s,{}]*\" /tmp/css.css)",
+      "Bash(curl -s http://localhost:3002/)"
     ]
   }
 }
