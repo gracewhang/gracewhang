@@ -33,7 +33,7 @@ function collectPhotosFromDOM(): LightboxItem[] {
     if (metaJson) {
       try {
         meta = JSON.parse(metaJson);
-      } catch {}
+      } catch { }
     }
     return {
       src: el.dataset.photoSrc!,
@@ -73,7 +73,7 @@ export function GalleryShell({ children }: { children: ReactNode }) {
   return (
     <Ctx.Provider value={value}>
       <div className="relative">
-        <div className="mx-auto max-w-[720px]">{children}</div>
+        <div className="mx-auto max-w-3xl">{children}</div>
         <SectionNav />
       </div>
       {state && (

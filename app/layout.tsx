@@ -15,8 +15,7 @@ export const metadata: Metadata = {
   description: siteConfig.description,
 };
 
-const pageContainer =
-  "mx-auto w-full max-w-[880px] px-5";
+const pageContainer = "mx-auto w-full max-w-3xl px-5";
 
 export default function RootLayout({
   children,
@@ -52,9 +51,11 @@ export default function RootLayout({
                   {siteConfig.name}
                 </Link>
               </h1>
-              <p className="m-0 mt-0.5 text-sm text-muted">
-                {siteConfig.description}
-              </p>
+              {siteConfig.description && (
+                <p className="m-0 mt-0.5 text-sm text-muted">
+                  {siteConfig.description}
+                </p>
+              )}
             </div>
             <div className="flex items-center gap-[18px] max-[640px]:w-full max-[640px]:justify-center">
               <SiteNav />

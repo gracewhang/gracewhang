@@ -26,9 +26,7 @@ export function SectionNav() {
       (entries) => {
         const visible = entries
           .filter((e) => e.isIntersecting)
-          .sort(
-            (a, b) => a.boundingClientRect.top - b.boundingClientRect.top,
-          );
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
         if (visible[0]) setActiveId((visible[0].target as HTMLElement).id);
       },
       { rootMargin: "-25% 0px -65% 0px", threshold: 0 },
@@ -42,7 +40,7 @@ export function SectionNav() {
   return (
     <aside
       aria-label="Sections"
-      className="group fixed top-1/2 z-20 -translate-y-1/2 right-[max(16px,calc((100vw-880px)/2-130px))] max-[1100px]:right-4 max-[720px]:hidden"
+      className="group fixed top-1/2 z-20 -translate-y-1/2 right-[max(16px,calc((100vw-880px)/2-130px))] max-[1100px]:right-4 max-[980px]:hidden"
     >
       <ul className="m-0 flex list-none flex-col gap-1 p-0">
         {items.map((s) => {
@@ -55,7 +53,10 @@ export function SectionNav() {
                   const target = document.getElementById(s.id);
                   if (target) {
                     e.preventDefault();
-                    target.scrollIntoView({ behavior: "smooth", block: "start" });
+                    target.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
                     history.replaceState(null, "", `#${s.id}`);
                   }
                 }}
