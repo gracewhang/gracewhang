@@ -12,7 +12,14 @@
       "Bash(pkill -f \"next start\")",
       "Bash(pkill -f \"next\")",
       "Bash(pnpm build:images)",
-      "Bash(pnpm run *)"
+      "Bash(pnpm run *)",
+      "Bash(pnpm dev *)",
+      "Read(//tmp/**)",
+      "Bash(curl -s http://localhost:3001/art)",
+      "Bash(curl -s http://localhost:3001/plants)",
+      "Bash(curl -s http://localhost:3001/places)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(pkill -f \"node scripts/build-image-data\")"
     ]
   }
 }
