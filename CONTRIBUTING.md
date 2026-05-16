@@ -15,8 +15,10 @@ blur placeholders for every image.
 2. Add one line to the matching MDX page (`app/(gallery)/places/page.mdx`,
    `…/plants/page.mdx`, `…/art/page.mdx`):
    ```mdx
-   <Photo src="/images/places/2026-04-lisbon.jpg" />
+   <Photo src="/images/places/2026-04-lisbon.jpg" caption="Lisbon, Portugal — April 2026" />
    ```
+   Captions are optional but follow a strict format per gallery — see
+   [With a caption](#with-a-caption) below.
 3. Run `pnpm dev` (or `pnpm build`). The image pipeline reruns automatically.
 
 That's it. EXIF, dimensions, and blur placeholders are picked up for you.
@@ -33,7 +35,9 @@ pnpm start        # serve the production build
 ```
 
 `pnpm dev` and `pnpm build` both run `scripts/build-image-data.mjs` first
-(see [Image pipeline](#image-pipeline) below).
+(they chain it inline as `pnpm run build:images && next …` — pnpm's `pre*`
+lifecycle hooks are off by default, so chaining is what makes it reliable).
+See [Image pipeline](#image-pipeline) below.
 
 ---
 
@@ -138,8 +142,16 @@ The caption is **not** shown in the expanded lightbox view.
 />
 ```
 
+The existing pages keep `<Photo>` calls on a single line when they fit —
+either form is fine, just match the surrounding entries in the file.
+
 Convention used in this repo:
-- Places → `"City, Country — Month Year"` (em-dash, not hyphen).
+- Places → `"City, Country — Month Year"` (em-dash `—`, not a hyphen `-`).
+  - For German-speaking cities, use the native form with diacritics in the
+    caption even though the filename is ASCII: filename `koln` →
+    caption `"Köln, Germany …"`. Same for `Münster`, `Nürnberg`, `Wien`.
+  - For US locations in the 2024+ sections, use `"…, USA"` (not the state
+    name). Older sections used state names; don't go back and rewrite them.
 - Plants → just the plant name (e.g. `"California poppies"`).
 - Art → no captions.
 

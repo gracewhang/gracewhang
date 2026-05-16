@@ -24,14 +24,16 @@ owner edits by hand. See `README.md` for the user-facing maintenance guide.
 
 ```bash
 pnpm install              # install deps
-pnpm dev                  # http://localhost:3000 (predev runs image pipeline)
-pnpm build                # production build (prebuild runs image pipeline)
+pnpm dev                  # http://localhost:3000 (runs image pipeline first)
+pnpm build                # production build (runs image pipeline first)
 pnpm start                # serve production build
 pnpm build:images         # regenerate content/image-data.json by hand
 ```
 
-`predev` and `prebuild` npm hooks both run `scripts/build-image-data.mjs`, so
-the metadata is always fresh.
+`dev` and `build` chain `build:images` directly (`pnpm run build:images && next …`)
+rather than relying on `pre*` lifecycle hooks — pnpm disables those by default
+(`enable-pre-post-scripts=false`), so the chained form is what actually guarantees
+fresh metadata.
 
 ## File layout (what matters)
 
@@ -111,10 +113,23 @@ scripts/
 
 ### Captions
 
+`<Photo>` takes an optional `caption` prop. It renders as a small italic
+overlay at the bottom of the image. The caption is **not** shown in the
+lightbox — by design (see `data-photo-meta` note under Gotchas).
+
+```mdx
+<Photo src="/images/places/2026-05-porto.jpg" caption="Porto, Portugal — May 2026" />
+```
+
 Match the existing format:
-- Places → `"City, Country — Month Year"` (em-dash, **not** a hyphen).
+- Places → `"City, Country — Month Year"` (em-dash `—`, **not** a hyphen `-`).
 - Plants → just the plant name (e.g. `"California poppies"`).
 - Art → no captions at all.
+
+For German-speaking cities the repo uses native forms with diacritics in
+captions (`Köln`, `Münster`, `Nürnberg`, `Wien`) even though the filenames
+are ASCII (`koln`, `muenster`, `nurnberg`, `wien`). USA places use `"…, USA"`
+not the state name in the 2024+ sections.
 
 ### Section IDs
 
