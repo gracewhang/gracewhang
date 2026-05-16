@@ -1779,6 +1779,132 @@
       "dateTaken": "2026-01-24T09:47:15.000Z"
     }
   },
+  "/images/places/2026-02-hamburg.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMFBv/EAB8QAAIBBQADAQAAAAAAAAAAAAEDAgAEBREhEjFBYf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQADAAAAAAAAAAAAAAAAAQAiQVH/2gAMAwEAAhEDEQA/AKF5nbLIYy5anyVcr1qMhskb6RWfGRuWACLGyifu/W/00SFCCVRiSDGPJfaY4AIXIRA8iARrg6KvLsCGr//Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/803s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2026-02-15T15:29:46.000Z"
+    }
+  },
+  "/images/places/2026-03-griffith-observatory.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EACEQAAECBgIDAAAAAAAAAAAAAAECAwAEBRESIRNBImGx/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABkRAAEFAAAAAAAAAAAAAAAAAAIAAQQRIf/aAAwDAQACEQMRAD8AQKSl5nlbBx3rE316glaMp4FSEOJANjm2U/YiqM7MTU26t51R8iAATYC/UZzj7qAcXVjfSzDxmHWshlGG8df/2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/5587s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2026-03-29T12:40:02.000Z"
+    }
+  },
+  "/images/places/2026-03-santa-monica.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgIF/8QAIhAAAQMDAwUAAAAAAAAAAAAAAQIDEQAEEgUhQQYTIzEy/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAEAIf/aAAwDAQACEQMRAD8AQnU2mU54rVuBikSTUN9TtOJKTa3TexjIRPFDVOO9tXmcJKT7M8Vm6HqNwzbKgpVKz9CaBGXL/9k=",
+    "exif": {
+      "camera": "Apple iPhone 17",
+      "lens": "iPhone 17 back dual wide camera 5.96mm f/1.6",
+      "fNumber": 1.6,
+      "exposureTime": "1/3831s",
+      "iso": 64,
+      "focalLength": 6,
+      "dateTaken": "2026-03-31T11:45:33.000Z"
+    }
+  },
+  "/images/places/2026-04-borrego-springs.jpg": {
+    "width": 5538,
+    "height": 4154,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQb/xAAfEAEAAgEEAwEAAAAAAAAAAAABAgMEAAURMRJSkSL/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAGREAAgMBAAAAAAAAAAAAAAAAAAECAyEE/9oADAMBAAIRAxEAPwBMwcTLGbuNcj2jw8fNIU2YeFVAs3DyjH2sA+ag9zhHFvXHGtSL+VO9FyzLpjzIEe9L6JPGCpitP//Z",
+    "exif": {
+      "camera": "Apple iPhone 17",
+      "lens": "iPhone 17 back dual wide camera 5.96mm f/1.6",
+      "fNumber": 1.6,
+      "exposureTime": "1/8850s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2026-04-06T11:10:00.000Z"
+    }
+  },
+  "/images/places/2026-04-la-jolla.jpg": {
+    "width": 5329,
+    "height": 3996,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFBv/EACIQAAEDAwMFAAAAAAAAAAAAAAIBAxEABBIFITETIkFicf/EABUBAQEAAAAAAAAAAAAAAAAAAAAE/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAECBCH/2gAMAwEAAhEDEQA/ADadq95cPGLt0JCIzCiiFl94imnLt1IVXV7uJjesSzcOq8g5Rvz5q4F47h03EBwfdJqeNTjlBwqP/9k=",
+    "exif": {
+      "camera": "Apple iPhone 17",
+      "lens": "iPhone 17 back dual wide camera 5.96mm f/1.6",
+      "fNumber": 1.6,
+      "exposureTime": "1/4608s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2026-04-02T12:18:08.000Z"
+    }
+  },
+  "/images/places/2026-04-malibu.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAIF/8QAIRAAAgICAQQDAAAAAAAAAAAAAQMCBAARBRIhMkFRYYH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGREAAgMBAAAAAAAAAAAAAAAAAAMBAhES/9oADAMBAAIRAxEAPwCeQs0rUVhnIBko+yCAPzWLpVOGs1wlNxYdGRJYT5D41vtmC2MC2Mega394mlTQxnRNYkCfffGhrMC4rp//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 17",
+      "lens": "iPhone 17 back dual wide camera 5.96mm f/1.6",
+      "fNumber": 1.6,
+      "exposureTime": "1/7813s",
+      "iso": 64,
+      "focalLength": 6,
+      "dateTaken": "2026-04-01T08:04:26.000Z"
+    }
+  },
+  "/images/places/2026-04-salzburg.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAcEAADAAMBAQEAAAAAAAAAAAABAgMABBExQnH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABoRAQACAwEAAAAAAAAAAAAAAAEAAgMRExT/2gAMAwEAAhEDEQA/ACudY3KTVnUfYIAP504hU0Ztym1NCPQ2SDV1c8OKhVrV5ThHvmP6slRWT8aron//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 17",
+      "lens": "iPhone 17 back dual wide camera 5.96mm f/1.6",
+      "fNumber": 1.6,
+      "exposureTime": "1/3125s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2026-04-30T12:14:49.000Z"
+    }
+  },
+  "/images/places/2026-04-san-diego.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBv/EACIQAAEDAgYDAAAAAAAAAAAAAAEAAgMRUQQFEyEiMRJBcf/EABQBAQAAAAAAAAAAAAAAAAAAAAT/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAMR/9oADAMBAAIRAxEAPwAGW6R5Ob4V3FQKqw4Y4iLSlmZFCegz39usM6R4PZ2uU1k8jjycTS5TXVgnL//Z",
+    "exif": {
+      "camera": "Apple iPhone 17",
+      "lens": "iPhone 17 back dual wide camera 5.96mm f/1.6",
+      "fNumber": 1.6,
+      "exposureTime": "1/5348s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2026-04-03T11:29:59.000Z"
+    }
+  },
+  "/images/places/2026-04-santa-barbara.jpg": {
+    "width": 5712,
+    "height": 4284,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAF/8QAIRAAAgEEAgIDAAAAAAAAAAAAAQIRAAMEEiExIlEkQcH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAEEMREVIf/aAAwDAQACEQMRAD8AcJct68MdjACiT1P5VaAySxtXFfUw3ElT6I+jWCmfktkW1e5t5AgxBXscRS4fxbmQLEqXGzEsTJ98mm2HaBUB4s//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 17",
+      "lens": "iPhone 17 back dual wide camera 5.96mm f/1.6",
+      "fNumber": 1.6,
+      "exposureTime": "1/6993s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2026-04-01T10:47:20.000Z"
+    }
+  },
   "/images/plants/2020-dragonfruit.png": {
     "width": 1406,
     "height": 937,
