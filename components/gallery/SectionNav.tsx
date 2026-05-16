@@ -1,10 +1,12 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 type Item = { id: string; label: string };
 
 export function SectionNav() {
+  const pathname = usePathname();
   const [items, setItems] = useState<Item[]>([]);
   const [activeId, setActiveId] = useState<string | null>(null);
 
@@ -17,7 +19,7 @@ export function SectionNav() {
       label: el.dataset.sectionLabel || el.id,
     }));
     setItems(list);
-    if (list.length > 0) setActiveId(list[0].id);
+    setActiveId(list[0]?.id ?? null);
     if (els.length === 0) return;
 
     const observer = new IntersectionObserver(
@@ -33,7 +35,7 @@ export function SectionNav() {
     );
     els.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, []);
+  }, [pathname]);
 
   if (items.length < 2) return null;
 

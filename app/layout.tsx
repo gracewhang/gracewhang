@@ -4,6 +4,7 @@ import Image from "next/image";
 import { siteConfig } from "@/content/site.config";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { NoFlashTheme } from "@/components/NoFlashTheme";
+import { SiteNav } from "@/components/SiteNav";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -56,17 +57,7 @@ export default function RootLayout({
               </p>
             </div>
             <div className="flex items-center gap-[18px] max-[640px]:w-full max-[640px]:justify-center">
-              <nav className="flex flex-wrap gap-4 max-[640px]:justify-center">
-                {siteConfig.nav.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="border-b-[1.5px] border-transparent px-0.5 py-1 text-[14.5px] font-medium text-fg-soft transition-colors duration-[160ms] hover:border-accent hover:text-accent hover:no-underline"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </nav>
+              <SiteNav />
               <ThemeToggle />
             </div>
           </div>
