@@ -10,8 +10,8 @@ export default function HomePage() {
   const blur = meta?.blurDataURL ?? undefined;
 
   return (
-    <div className="home">
-      <figure className="hero">
+    <div className="flex flex-col gap-14">
+      <figure className="relative m-0 overflow-hidden rounded-[18px] bg-bg-elev shadow-[0_1px_0_var(--border),0_30px_60px_-30px_rgba(0,0,0,0.18)]">
         <Image
           src={HERO_SRC}
           alt="Raspberries falling past a rocky peak — digital collage"

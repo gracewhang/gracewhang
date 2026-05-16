@@ -38,27 +38,40 @@ export function SectionNav() {
   if (items.length < 2) return null;
 
   return (
-    <aside className="section-nav" aria-label="Sections">
-      <ul>
-        {items.map((s) => (
-          <li key={s.id}>
-            <a
-              href={`#${s.id}`}
-              className={s.id === activeId ? "is-active" : ""}
-              onClick={(e) => {
-                const target = document.getElementById(s.id);
-                if (target) {
-                  e.preventDefault();
-                  target.scrollIntoView({ behavior: "smooth", block: "start" });
-                  history.replaceState(null, "", `#${s.id}`);
-                }
-              }}
-            >
-              <span className="dot" aria-hidden="true" />
-              <span className="label">{s.label}</span>
-            </a>
-          </li>
-        ))}
+    <aside
+      aria-label="Sections"
+      className="group fixed top-1/2 z-20 -translate-y-1/2 right-[max(16px,calc((100vw-880px)/2-130px))] max-[1100px]:right-4 max-[720px]:hidden"
+    >
+      <ul className="m-0 flex list-none flex-col gap-1 p-0">
+        {items.map((s) => {
+          const isActive = s.id === activeId;
+          return (
+            <li key={s.id}>
+              <a
+                href={`#${s.id}`}
+                onClick={(e) => {
+                  const target = document.getElementById(s.id);
+                  if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: "smooth", block: "start" });
+                    history.replaceState(null, "", `#${s.id}`);
+                  }
+                }}
+                className={`inline-flex cursor-pointer items-center gap-[10px] py-1.5 text-xs tracking-[0.06em] hover:no-underline ${isActive ? "text-accent" : "text-muted hover:text-fg"}`}
+              >
+                <span
+                  aria-hidden="true"
+                  className={`inline-block h-px bg-current transition-[width,opacity] duration-[160ms] ${isActive ? "w-7 opacity-100" : "w-[18px] opacity-50"}`}
+                />
+                <span
+                  className={`whitespace-nowrap transition-[opacity,transform] duration-[160ms] max-[1100px]:group-hover:inline ${isActive ? "translate-x-0 opacity-100" : "-translate-x-1 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 max-[1100px]:hidden"}`}
+                >
+                  {s.label}
+                </span>
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </aside>
   );

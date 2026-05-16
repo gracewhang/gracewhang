@@ -72,8 +72,8 @@ export function GalleryShell({ children }: { children: ReactNode }) {
 
   return (
     <Ctx.Provider value={value}>
-      <div className="gallery-layout">
-        <div className="gallery-content">{children}</div>
+      <div className="relative">
+        <div className="mx-auto max-w-[720px]">{children}</div>
         <SectionNav />
       </div>
       {state && (

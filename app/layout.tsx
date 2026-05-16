@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   description: siteConfig.description,
 };
 
+const pageContainer =
+  "mx-auto w-full max-w-[880px] px-5";
+
 export default function RootLayout({
   children,
 }: {
@@ -25,27 +28,41 @@ export default function RootLayout({
         <NoFlashTheme />
       </head>
       <body>
-        <header className="masthead">
-          <div className="container masthead-inner">
-            <Link href="/" className="avatar" aria-label="Home">
+        <header className="mb-12 border-b border-border pt-7 pb-[22px]">
+          <div
+            className={`${pageContainer} flex flex-wrap items-center gap-5 max-[640px]:flex-col max-[640px]:text-center`}
+          >
+            <Link href="/" className="block size-16 shrink-0" aria-label="Home">
               <Image
                 src={siteConfig.avatar}
                 alt={`${siteConfig.name} avatar`}
                 width={160}
                 height={160}
                 priority
+                className="size-16 rounded-full border border-border object-cover"
               />
             </Link>
-            <div className="site-info">
-              <h1 className="site-name">
-                <Link href="/">{siteConfig.name}</Link>
+            <div className="min-w-[200px] flex-1">
+              <h1 className="m-0 text-[22px] font-semibold tracking-tight">
+                <Link
+                  href="/"
+                  className="text-fg transition-colors duration-[160ms] hover:text-accent hover:no-underline"
+                >
+                  {siteConfig.name}
+                </Link>
               </h1>
-              <p className="site-description">{siteConfig.description}</p>
+              <p className="m-0 mt-0.5 text-sm text-muted">
+                {siteConfig.description}
+              </p>
             </div>
-            <div className="masthead-tools">
-              <nav className="site-nav">
+            <div className="flex items-center gap-[18px] max-[640px]:w-full max-[640px]:justify-center">
+              <nav className="flex flex-wrap gap-4 max-[640px]:justify-center">
                 {siteConfig.nav.map((item) => (
-                  <Link key={item.href} href={item.href}>
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="border-b-[1.5px] border-transparent px-0.5 py-1 text-[14.5px] font-medium text-fg-soft transition-colors duration-[160ms] hover:border-accent hover:text-accent hover:no-underline"
+                  >
                     {item.label}
                   </Link>
                 ))}
@@ -54,9 +71,11 @@ export default function RootLayout({
             </div>
           </div>
         </header>
-        <main className="container main">{children}</main>
-        <footer className="site-footer">
-          <div className="container">
+        <main className={`${pageContainer} min-h-[50vh] pb-24`}>
+          {children}
+        </main>
+        <footer className="border-t border-border py-6 text-center text-[13px] text-muted">
+          <div className={pageContainer}>
             <span>
               © {new Date().getFullYear()} {siteConfig.name}
             </span>

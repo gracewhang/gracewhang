@@ -14,10 +14,10 @@ export function Section({
       id={id}
       data-section=""
       data-section-label={label}
-      className="photo-section"
+      className="mb-16 scroll-mt-5"
     >
       <h2>{label}</h2>
-      <div className="photo-column">{children}</div>
+      <div className="flex flex-col gap-7">{children}</div>
     </section>
   );
 }
