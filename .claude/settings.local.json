@@ -10,7 +10,9 @@
       "Bash(node *)",
       "Bash(npx next *)",
       "Bash(pkill -f \"next start\")",
-      "Bash(pkill -f \"next\")"
+      "Bash(pkill -f \"next\")",
+      "Bash(pnpm build:images)",
+      "Bash(pnpm run *)"
     ]
   }
 }

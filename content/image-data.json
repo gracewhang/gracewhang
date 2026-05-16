@@ -1233,6 +1233,552 @@
       "dateTaken": "2023-10-01T16:48:38.000Z"
     }
   },
+  "/images/places/2023-12-los-angeles.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAEF/8QAIRAAAgEEAgIDAAAAAAAAAAAAAQIRAAMEEhMhMXEiYbH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABsRAAEEAwAAAAAAAAAAAAAAAAEAAgMREhQy/9oADAMBAAIRAxEAPwAt6/jpk8bMNdipMdKajXrWgaxo7EEx3Ij6isvMXjVdSYDhAD4iJ/e6bgZDtcugx8H0HrzPvuo3J2C8rQ6KEjlf/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/2695s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2023-12-25T13:29:37.000Z"
+    }
+  },
+  "/images/places/2024-01-delft.jpg": {
+    "width": 3912,
+    "height": 2934,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQMFBv/EACIQAAIBAwIHAAAAAAAAAAAAAAECAwAEIRESBQYTMkFhgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAMAwEAAhEDEQA/ALMXH7MuyNKykNt1IwfePFGbmCxSOR1Z5VjXUlBg/TWWeCKM7tgY92aU1tCykdNQGGhFTopf/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/397s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-01-13T13:27:06.000Z"
+    }
+  },
+  "/images/places/2024-03-valencia.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAlEAACAgAFAgcAAAAAAAAAAAABAgMRAAQFITESsQYTFCJBQvD/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EABgRAAMBAQAAAAAAAAAAAAAAAAACEQME/9oADAMBAAIRAxEAPwBcniF3iZjk6hBBBZ7Dfq+MDOvZnyuoRQhaZUAB2I2PfnBtWyseXSKOMt0M/BN1yT2xJavSo5UMW9m/1DCzWBMzFpOfOWH/2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/182s",
+      "iso": 40,
+      "focalLength": 6,
+      "dateTaken": "2024-03-15T13:55:15.000Z"
+    }
+  },
+  "/images/places/2024-05-bremen.jpg": {
+    "width": 3767,
+    "height": 2825,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAhEAABAwMFAQEAAAAAAAAAAAABAgMRAAQGBRIhQXETIv/EABUBAQEAAAAAAAAAAAAAAAAAAAIE/8QAGhEAAgMBAQAAAAAAAAAAAAAAAQMAAiERgf/aAAwDAQACEQMRAD8Am44x9ShbyvykHaQOz5TtV1W1si5uUXnR1ESaj45Cr5SCBtBJjzii5G2lT7y4gpPEE8UltYumHO+ycrrY7P/Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/2299s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-05-30T07:35:44.000Z"
+    }
+  },
+  "/images/places/2024-05-santorini.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQME/8QAIhAAAgICAAYDAAAAAAAAAAAAAQIDEQAEEhMhIzFCcbHR/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABgRAAMBAQAAAAAAAAAAAAAAAAEDEQAC/9oADAMBAAIRAxEAPwBPtykMS6E+eJcjI0ztcL8uMe1Wzfn3hse/tM5JlY/JvMEu7suSrTPV30YjEFjuhLjxfJs3/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/3571s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-05-15T14:22:56.000Z"
+    }
+  },
+  "/images/places/2024-06-bordeaux.jpg": {
+    "width": 3643,
+    "height": 2732,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgMF/8QAIhAAAQMEAgIDAAAAAAAAAAAAAQIDBAAREiEFMSJxE0GB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAL/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIR/9oADAMBAAIRAxEAPwA8F4ym1MOB2PKklIsMSbAb/fX1Sk8jxCGsMPJCcMVK3cG+9dVhcjJMV34I7TKEDIjwuRcb79VKShEpkPPIBXbZ6vSdZNLGf//Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/3356s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-06-02T18:05:19.000Z"
+    }
+  },
+  "/images/places/2024-07-boppard.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQFBv/EACAQAAEDBAIDAAAAAAAAAAAAAAECAwQAERIhBTFRcZH/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABkRAQADAQEAAAAAAAAAAAAAAAEAAxECBP/aAAwDAQACEQMRAD8AaLkJwjJDyh0FKtYCiPIwoqcVhZUnVyASB96qFMluxmQGTjus9KkPKauVnZ3780vqsTJAq5HZ/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/4630s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-07-20T14:16:38.000Z"
+    }
+  },
+  "/images/places/2024-07-brussels.jpg": {
+    "width": 3584,
+    "height": 2688,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAIF/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQIDAAQhBRExBiKBEhNBcZH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAAMAAAAAAAAAAAAAAAAAAAASIf/aAAwDAQACEQMRAD8AXpF57kqOe1mX0uv3kHzRuoL4IzKWYKVCMy8oPk+c/lYSXMtndAwHYKxAU5G2KnUZnmjE7nvefO3A24xU2g1p/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/328s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-07-05T14:21:03.000Z"
+    }
+  },
+  "/images/places/2024-08-edinburgh.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQFBv/EACEQAAIBBQABBQAAAAAAAAAAAAECEQADBAUhMRITIkFR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAZEQEAAgMAAAAAAAAAAAAAAAABABECEzH/2gAMAwEAAhEDEQA/AGtZvLN8i1luquIhgIWIjp+uii3Ijd6243thPQ5LFhyB5n87WAxc/IGSnyBDkSIquMh7xh1WEV4Ec8A07GqZLgdJ/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/2083s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-08-03T16:33:57.000Z"
+    }
+  },
+  "/images/places/2024-08-munich.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBv/EACAQAAICAQQDAQAAAAAAAAAAAAECAwQRAAUGMRIUIVH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQACAxH/2gAMAwEAAhEDEQA/AL0txQsFEN1AxwMwkjR5RMlfj07xvMruVH2MjIJ+96SpflO3WZvFA8QbxIHeP3WX3Lc7N/HslWygHXWlNtLdGC51Gf/Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/5882s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-08-15T13:19:35.000Z"
+    }
+  },
+  "/images/places/2024-10-london.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQMFBv/EACQQAAICAQMCBwAAAAAAAAAAAAECAxEEAAUSEzEhQVFSccHx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAwDAQACEQMRAD8Aasu2Ziyqyx01ngwPEWKJUV4H90Xh2rFxV5vGiJVtyotXa/XWagy8pcASLkyixZVTQ7X5fOpsU8+6ZXRyp5TH7Q5+70UmX//Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/687s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-10-12T07:01:14.000Z"
+    }
+  },
+  "/images/places/2024-11-seoul.jpg": {
+    "width": 3848,
+    "height": 2886,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBv/EACIQAAICAgEDBQAAAAAAAAAAAAECAxEABCESFDEFFVGBof/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAYEQEAAwEAAAAAAAAAAAAAAAACAAEDMf/aAAwDAQACEQMRAD8Ak+p6k+7uARb8sy0GBmtOnn4wT3+OPpg2nkCEqtOpavvnNB2wn1Gnmkkd1CKLIqjzXjE6iJ3JUqCUXg+D+YHqr7EQan//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/902s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-11-23T10:36:08.000Z"
+    }
+  },
+  "/images/places/2024-11-suwon.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIF/8QAIRAAAgICAgEFAAAAAAAAAAAAAQIDEQAEBRIhEyIxMoH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABgRAAMBAQAAAAAAAAAAAAAAAAABEQJh/9oADAMBAAIRAxEAPwC+J2oTwTND1ab0jbdaI8k1ibXKLKdeEPG4WJWtaPu6gnMvU1Fk1whkmUDt9XI+T5wdnjYIAHjaS1Aq2/Mnmq9FqOH/2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/1488s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-11-19T15:16:09.000Z"
+    }
+  },
+  "/images/places/2024-12-santa-monica.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQUG/8QAHxAAAgEEAgMAAAAAAAAAAAAAAQIDAAURIQRhIkGh/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAwDAQACEQMRAD8Avi8BB5K4HYND3qJTh2KnsYrPrzuTLErvKcMRlV0Pm6LrKYLc7qAzBjt9+zSaHH//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/1901s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2024-12-24T10:28:04.000Z"
+    }
+  },
+  "/images/places/2025-01-halbergmoos.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgEC/8QAHBAAAQQDAQAAAAAAAAAAAAAAAQACAxEEBZFR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABcRAAMBAAAAAAAAAAAAAAAAAAABAhL/2gAMAwEAAhEDEQA/ACeLp3SgG29C3kaN8bbtvQjVq2fU1QSk/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/30s",
+      "iso": 1000,
+      "focalLength": 6,
+      "dateTaken": "2025-01-13T16:24:16.000Z"
+    }
+  },
+  "/images/places/2025-01-warngau.jpg": {
+    "width": 3735,
+    "height": 2801,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgEC/8QAIBAAAQQABwEAAAAAAAAAAAAAAQACAwQRITFDUnGRkv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhEDEQA/AFbIq2GcjPVotqDej+ghItz81RcmOpaewlrUMJv/2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/121s",
+      "iso": 64,
+      "focalLength": 6,
+      "dateTaken": "2025-01-19T06:46:01.000Z"
+    }
+  },
+  "/images/places/2025-02-dresden.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQb/xAAhEAACAQMEAwEAAAAAAAAAAAABAgMAERIFEyFRBjFhkf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAZEQABBQAAAAAAAAAAAAAAAAACAAERITH/2gAMAwEAAhEDEQA/ACvFQlpBI4XbNrk9+qX1MbQYkFlKZY9/KmtIleKNgh4fC/HRvTOoMXjybkupJ/KTGWTSLiOxa//Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/330s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-02-22T06:26:07.000Z"
+    }
+  },
+  "/images/places/2025-02-munich.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAwH/xAAjEAACAQMEAQUAAAAAAAAAAAABAgMABBEFEiFBExQiMTJx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAMAwEAAhEDEQA/AD02Ge1mB80buuAuTuAPXx1RXp1G61SSP1UKqCeXbACkdZpLH6RyZOZPe36at+isdzKCeak0jf/Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/621s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-02-16T13:27:01.000Z"
+    }
+  },
+  "/images/places/2025-03-london.jpg": {
+    "width": 3795,
+    "height": 2846,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAjEAACAgEDAwUAAAAAAAAAAAABAgMRAAQFIUFRcQYSEzGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAXEQEBAQEAAAAAAAAAAAAAAAABAgAx/9oADAMBAAIRAxEAPwBmxauHXw3MyxyqCzdBQ6j8yP6g3aEfGNsnDxsCxb2kMr3X14798ia2doJGSJVF2C1mzx5wOpmYLHwvIsjI3T3CZN//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/121s",
+      "iso": 64,
+      "focalLength": 6,
+      "dateTaken": "2025-03-28T17:36:06.000Z"
+    }
+  },
+  "/images/places/2025-03-munich.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwEE/8QAIRAAAgECBgMAAAAAAAAAAAAAAQIRAAMEBRIhMVEiYZH/xAAVAQEBAAAAAAAAAAAAAAAAAAACBP/EABcRAAMBAAAAAAAAAAAAAAAAAAABAkH/2gAMAwEAAhEDEQA/AMxezcddNlHFsyCRMH1UxeBwd2yAAqqTPkeOqK1tpgwFIgfaLMnZcqeDtrGx6nipIeMcs//Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/1698s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-03-22T10:00:13.000Z"
+    }
+  },
+  "/images/places/2025-03-nurnberg.jpg": {
+    "width": 3741,
+    "height": 2806,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQT/xAAgEAACAgICAgMAAAAAAAAAAAABAgMRBCEABRJxFCIx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABgRAAIDAAAAAAAAAAAAAAAAAAABESEx/9oADAMBAAIRAxEAPwAvBaLzfFnVgs0cbIYwTRI+w2ao3vi3c91lw9GYcUhIRuUj92aA5DnQR4fYs8S3SqVDbC0aFD0OLzYsCx/LWJFkKAEBR4keuGWMtn//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/163s",
+      "iso": 40,
+      "focalLength": 6,
+      "dateTaken": "2025-03-23T08:54:53.000Z"
+    }
+  },
+  "/images/places/2025-04-bratislava.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAID/8QAIRAAAgEDBQADAAAAAAAAAAAAAQIDAAQREyExQVEFgfD/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQIAAxESIf/aAAwDAQACEQMRAD8A3W1iWZ9WBgrklQrgBD+69oF1q273DmVcIhWNQeeCT98ZqvkbyZL4tGQp3Gw9OTQWkZ3JfDF8hs902tc1hCeQitQ+2J//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/3257s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-04-19T12:48:21.000Z"
+    }
+  },
+  "/images/places/2025-04-munich.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQb/xAAgEAACAgMAAQUAAAAAAAAAAAABAgMEABEhBRITMVFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIDEiH/2gAMAwEAAhEDEQA/ADKtWOIharAe4u2DDeiPrHK0Nm3HXSzPG8ABVdDo0cm/GSO9/rEeleaOJyySQRvNFIysvfnh/RhN9K7pLZ//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/50s",
+      "iso": 160,
+      "focalLength": 6,
+      "dateTaken": "2025-04-03T16:48:01.000Z"
+    }
+  },
+  "/images/places/2025-04-munich2.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgMF/8QAJhAAAQMDAgUFAAAAAAAAAAAAAQIDBAARIQUSExQjMVEyQWGRsf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGREAAgMBAAAAAAAAAAAAAAAAAQIAAxES/9oADAMBAAIRAxEAPwCcmUtOnOOMB1PV4ZVtBTgZv7g+LfNBhxMnSlyxiREcSTj1jv8Al/qnyrL+lxnnEXWuaUEg2uDm1ZmoNNxZEgNIG1bKlbTkJIKbEeO9J7WZydk0r5E//9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/1972s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-04-12T13:14:45.000Z"
+    }
+  },
+  "/images/places/2025-04-schliersee.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQFB//EACIQAAIBBAEEAwAAAAAAAAAAAAECAwAEBRFCEhMhQVGBof/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECAwQRIf/aAAwDAQACEQMRAD8AegzWGvBsrdI54ld/oomu8aImdYrnfEOuuo1mcV1PBKe1KyevB+au4zIXU0DpJKSqE6+hTnkWJcJqqOz/2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/5587s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-04-27T08:30:04.000Z"
+    }
+  },
+  "/images/places/2025-04-wien.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFBv/EACIQAAIBAgUFAAAAAAAAAAAAAAEDAgASBAYREyEVMkFRcf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECBDH/2gAMAwEAAhEDEQA/ALmHzCucNXrCpetwEGhYnMy1tTBaJt3LrjGXEdBxz9rFHEu6rCG4bLe3xTqpykwgmpHamtDP/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/887s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-04-18T08:13:05.000Z"
+    }
+  },
+  "/images/places/2025-05-playa-del-rey.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQFB//EAB8QAAIBBAIDAAAAAAAAAAAAAAECAwAEESEFUSRCYf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAGREBAAIDAAAAAAAAAAAAAAAAAgABAwQx/9oADAMBAAIRAxEAPwBy3bj2I8mPdVbV7AEZuU33WaLlnZyzZB7+Zo4biZp9yvkg+1HspV2Q4SJ//9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/4444s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-05-15T17:01:20.000Z"
+    }
+  },
+  "/images/places/2025-06-munich.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQQFBv/EACEQAAICAQQCAwAAAAAAAAAAAAEDAhEABAUSEyEyQXGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAZEQADAAMAAAAAAAAAAAAAAAAAAQISMUH/2gAMAwEAAhEDEQA/AImm2zUJaWR3XiyRuRiLv9xyKdQH9w3aRlVVJQIr6BzTFKIjkEKu69Bgd1q8RQk1IRFwHzhVS0yYS+H/2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/6211s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-06-19T11:19:05.000Z"
+    }
+  },
+  "/images/places/2025-06-schwabenheim-an-der-selz.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAEH/8QAIRAAAQQBAwUAAAAAAAAAAAAAAQACAxEEBQYhEjFxcoL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAAMBAAAAAAAAAAAAAAAAAAABAiH/2gAMAwEAAhEDEQA/ACY+4NH4sTn4TjujQ4o7EGS8+gCz8PN9PFeFQ9xaLPdS6dBYf//Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/282s",
+      "iso": 40,
+      "focalLength": 6,
+      "dateTaken": "2025-06-26T19:44:03.000Z"
+    }
+  },
+  "/images/places/2025-07-dublin.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUG/8QAIhAAAQMDBAMBAAAAAAAAAAAAAQIDBAARIQUSQXEGIkJh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAID/9oADAMBAAIRAxEAPwBsbUGYGhJmPeyU3CEj7PGaCx5k80Ap2O0QcAgFN+qzGtSXlRW4++zTFwhI75qdBCn5IZW4vZnAP5VO1k5l/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/8696s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-07-19T11:41:23.000Z"
+    }
+  },
+  "/images/places/2025-08-landsberg.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAL/xAAiEAACAQQCAQUAAAAAAAAAAAABAgMABBIhBRGRBiJBUWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECERL/2gAMAwEAAhEDEQA/AHJzdk/sSCaUbOWGPgk0Y+orVXdBb3mA2OyAD+fdUZZ4k7inlQD4Da8UZeYvGbByjA67K7pdyBpH/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/5882s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-08-30T11:40:45.000Z"
+    }
+  },
+  "/images/places/2025-08-munster.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAJBAAAgIBAwIHAAAAAAAAAAAAAQMCBBEAEiEFEwYiMUFhgdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EABwRAAIBBQEAAAAAAAAAAAAAAAECAAMREiEiQf/aAAwDAQACEQMRAD8Akm1SrVId5jFMlEZG05H5oErdGFyDiwiBOfLDB9Pf40fxBCCnySiPahBhgNpOSMg8k8n71qdKoVNjSyutxO3lg3Y4Oi1EUdShk4sD7uf/2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/33s",
+      "iso": 400,
+      "focalLength": 6,
+      "dateTaken": "2025-08-23T14:26:49.000Z"
+    }
+  },
+  "/images/places/2025-10-halbergmoos.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAIxAAAgEDAwQDAAAAAAAAAAAAAQIDAAQREiFBBRMUUWFicf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGxEAAwACAwAAAAAAAAAAAAAAAQIDABESMUH/2gAMAwEAAhEDEQA/ABS30cnUTBEw2YqQR6/KUxiNlLPEwbtY1Y4zWJZp5tvO87Esm6sAMgnnNRguJrdJBHIwDLof7j5qIVqlGblsHzGqIyga6z//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/1645s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-10-16T14:55:27.000Z"
+    }
+  },
+  "/images/places/2025-10-mainz.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQQG/8QAIhAAAgEEAQQDAAAAAAAAAAAAAQIDAAQRIQUSIjFBkaHB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIh/9oADAMBAAIRAxEAPwAfjraW+WaYo6RxOUIx7AJ+NUsOIMFzaR4PQ0GWBA22Ac/dR8ZdTKAqtojfvzWuZFmgtblhiRepO3xgKB+UCnSiqZ//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/683s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-10-29T13:20:24.000Z"
+    }
+  },
+  "/images/places/2025-10-munich.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAEG/8QAJBAAAgEDAwMFAAAAAAAAAAAAAQMCBAURABIhEyJBMTJRgdH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABkRAQACAwAAAAAAAAAAAAAAAAEAESEiMf/aAAwDAQACEQMRAD8Atoo1KZTsm45mQZ7pbgQPTH7pNxcp8mlM90ejMLIOOccnPz4+tZC2XCqfWlM3SC1DtiONKpa1ybqyjjtKOSIke3PgaRrg5Jpc/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/411s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-10-17T15:50:05.000Z"
+    }
+  },
+  "/images/places/2025-10-tokyo.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQb/xAAiEAACAQQCAQUAAAAAAAAAAAABAgMEBRESACExBhNRYbH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQADAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AKkXOGK4PQhmapSP3DGB5Hxk9Z5L3P1tcDI8VHTpRgEqZJ2BYY+vH7wGe71dPcGnBSSR4lVzKu2wx4I4XOFmqnk0SPYE6xqFA6z1w1cVf//Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/431s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-10-31T14:02:31.000Z"
+    }
+  },
+  "/images/places/2025-11-himeji.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAEH/8QAIxAAAQMEAgEFAAAAAAAAAAAAAQIDBAARITEFEwYSIlFh8P/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8AWppyGlCB2pGrFsgD9902PIcjggA+0XVnVZ4z5VzXUGFTnFINhlRvv53Ue5mdOeKn3ckem6RbF9VG3REf/9k=",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/6211s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-11-03T14:33:25.000Z"
+    }
+  },
+  "/images/places/2025-11-tokyo.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAJBAAAQQBBAAHAAAAAAAAAAAAAQIDBBEABRIhQQYTFDJRYYH/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQACA//aAAwDAQACEQMRAD8ARouuxI8VUFlhxhDQtsOOWCTyeeu/nJzfFUjz1MxWEGj7iSQRX5mDAjNJd1TcC56U03vN91zgJayl9RQAn6F4XpoImS//2Q==",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/2165s",
+      "iso": 50,
+      "focalLength": 6,
+      "dateTaken": "2025-11-01T13:36:09.000Z"
+    }
+  },
+  "/images/places/2026-01-munich.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAIG/8QAIxAAAQMEAQQDAAAAAAAAAAAAAQIDEQAEBSESBhMiMTJxgf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oADAMBAAIRAxEAPwB670W3aa3LpABJAA1Jn8FU3mnn2lWTaPBKlNFXKeWpn63WQ6gyb7aLZQQyqQr5Ng+jFFwGaul5RpotsBKiSeLcRqo6wv/Z",
+    "exif": {
+      "camera": "Apple iPhone 13 Pro",
+      "lens": "iPhone 13 Pro back triple camera 5.7mm f/1.5",
+      "fNumber": 1.5,
+      "exposureTime": "1/178s",
+      "iso": 40,
+      "focalLength": 6,
+      "dateTaken": "2026-01-24T09:47:15.000Z"
+    }
+  },
   "/images/plants/2020-dragonfruit.png": {
     "width": 1406,
     "height": 937,

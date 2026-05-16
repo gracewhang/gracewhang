@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "build:images": "node scripts/build-image-data.mjs",
-    "predev": "node scripts/build-image-data.mjs",
-    "dev": "next dev",
-    "prebuild": "node scripts/build-image-data.mjs",
-    "build": "next build",
+    "dev": "pnpm run build:images && next dev",
+    "build": "pnpm run build:images && next build",
     "start": "next start",
     "lint": "next lint"
   },
